@@ -129,6 +129,9 @@ table {
     -moz-box-shadow: 0 1px 2px #d1d1d1;
     -webkit-box-shadow: 0 1px 2px #d1d1d1;
     box-shadow: 0 1px 2px #d1d1d1;
+    position: relative;
+    top: 40px;
+
 }
 table th {
     padding:21px 25px 22px 25px;
@@ -195,6 +198,17 @@ table tr:hover td {
     background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
     background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);
 }
+#input{
+     position: relative;
+     left: 2px;
+     top:3px;
+ }
+#num {
+     position: absolute;
+     top: 3px;
+     right:400px;
+ }
+
 button {
     display: inline-block;
     font-family: arial,sans-serif;
@@ -209,6 +223,10 @@ button {
     border-radius: 2px;
     background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
     transition: all .218s ease 0s;
+    position: absolute;
+    top: 45px;
+    right: 600px;
+
 }
 button:hover {
     color: rgb(24,24,24);
@@ -222,7 +240,6 @@ button:active {
     background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
     box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
 }
-
 
 
 
