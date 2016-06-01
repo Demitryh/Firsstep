@@ -225,7 +225,7 @@ button {
     transition: all .218s ease 0s;
     position: absolute;
     top: 45px;
-    right: 600px;
+    left: 3px;
 
 }
 button:hover {

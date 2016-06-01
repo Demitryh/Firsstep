@@ -1,12 +1,17 @@
-function addRow() {
 
-    var table = document.createElement('table');
+
+var but = document.getElementById("button");
+function addRow() {
+    var table = document.createElement("table");
     document.body.appendChild(table);
-    var test = document.getElementById('input').files[0];
+    var input = document.getElementById("input").files[0];
     var k = document.getElementById("num").value;
-    Papa.parse(test, {
+
+    Papa.parse(input, {
         complete:function(results) {
             data=results.data;
+
+
             for (var i=0;i<=data.length;i++) {
                 var newrow = table.insertRow(-1);
 
@@ -17,5 +22,7 @@ function addRow() {
 
         }
     });
+
+
 }
 
